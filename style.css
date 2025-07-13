@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fef8f8;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 420px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #6c5ce7;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+  color: #2d3436;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #dfe6e9;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6c5ce7;
+  box-shadow: 0 0 3px #a29bfe;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6c5ce7;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a4fcf;
+}
+
+#score {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #00b894;
+}
